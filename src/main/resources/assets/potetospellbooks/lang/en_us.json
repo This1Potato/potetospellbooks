@@ -1,0 +1,13 @@
+{
+  "itemGroup.potetospellbooks": "Example Mod Tab",
+  "block.potetospellbooks.example_block": "Example Block",
+  "item.potetospellbooks.example_item": "Example Item",
+
+  "potetospellbooks.configuration.title": "Poteto's Modular Spellbooks for ISS and TM Configs",
+  "potetospellbooks.configuration.section.potetospellbooks.common.toml": "Poteto's Modular Spellbooks for ISS and TM Configs",
+  "potetospellbooks.configuration.section.potetospellbooks.common.toml.title": "Poteto's Modular Spellbooks for ISS and TM Configs",
+  "potetospellbooks.configuration.items": "Item List",
+  "potetospellbooks.configuration.logDirtBlock": "Log Dirt Block",
+  "potetospellbooks.configuration.magicNumberIntroduction": "Magic Number Text",
+  "potetospellbooks.configuration.magicNumber": "Magic Number"
+}
