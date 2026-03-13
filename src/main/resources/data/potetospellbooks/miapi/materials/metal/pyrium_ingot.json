@@ -1,0 +1,104 @@
+{
+    "icon": {
+        "type": "item",
+        "item": "irons_spellbooks:pyrium_ingot"
+    },
+    "groups": [
+        "metal",
+        "smithing",
+        "arcane"
+    ],
+    "hardness": 8,
+    "density": 2.8,
+    "flexibility": 3,
+    "enchantability": 15,
+    "durability": 2031,
+    "tier": 6,
+    "armor_durability_offset": -1439,
+    "mining_speed": 7,
+    "mining_level": "minecraft:incorrect_for_netherite_tool",
+    "properties": {
+        "helmet": {
+            "attributes": [
+                {
+                    "slot": "head",
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "+",
+                    "value": "20"
+                },
+                {
+                    "slot": "head",
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "+",
+                    "value": "0.025"
+                }
+            ]
+        },
+        "chest": {
+            "attributes": [
+                {
+                    "slot": "chest",
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "+",
+                    "value": "5"
+                },
+                {
+                    "slot": "chest",
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "+",
+                    "value": "0.00625"
+                }
+            ]
+        },
+        "pants": {
+            "attributes": [
+                {
+                    "slot": "legs",
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "+",
+                    "value": "6.666666667"
+                },
+                {
+                    "slot": "legs",
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "*",
+                    "value": "0.0083333333334"
+                }
+            ]
+        },
+        "boot": {
+            "attributes": [
+                {
+                    "slot": "feet",
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "+",
+                    "value": "7.5"
+                },
+                {
+                    "slot": "feet",
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "*",
+                    "value": "0.0125"
+                }
+            ]
+        },
+        "default": {
+            "fire_proof": true
+        }
+    },
+    "color": "FFAA00",
+    "color_palette": {
+        "type":"image_generated_item",
+        "item":"irons_spellbooks:pyrium_ingot"
+    },
+    "textures": [
+        "netherite",
+        "metallic"
+    ],
+    "items": [
+        {
+            "item": "irons_spellbooks:pyrium_ingot",
+            "value": 1.0
+        }
+    ]
+}

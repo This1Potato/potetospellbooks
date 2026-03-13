@@ -1,0 +1,11 @@
+{
+    "type": "miapi:material_smithing",
+    "template": {
+        "item": "irons_spellbooks:timeless_slurry"
+    },
+    "addition": {
+        "item": "irons_spellbooks:pyrium_ingot"
+    },
+    "base": "miapi:metal/netherite",
+    "result": "potetospellbooks:metal/pyrium_ingot"
+}

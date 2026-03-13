@@ -1,0 +1,11 @@
+{
+    "type": "miapi:material_smithing",
+    "template": {
+        "item": "irons_spellbooks:nature_rune"
+    },
+    "addition": {
+        "item": "irons_spellbooks:arcane_essence"
+    },
+    "base": "potetospellbooks:fabric/magic_cloth",
+    "result": "potetospellbooks:arcane/nature"
+}

@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+
+license="${mod_license}"
+
+[[mods]]
+modId="potetospellbooks"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Poteto!"
+description='''
+Modular Spellbooks, Weapons and Armors for Iron's Spellbooks, powered by the Modular Item API!
+'''
+
+[[dependencies.potetospellbooks]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.219,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.potetospellbooks]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"

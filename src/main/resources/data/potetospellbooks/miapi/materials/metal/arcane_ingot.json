@@ -1,0 +1,110 @@
+{
+    "icon": {
+        "type": "item",
+        "item": "irons_spellbooks:arcane_ingot"
+    },
+    "groups": [
+        "metal",
+        "arcane"
+    ],
+    "hardness": 4,
+    "density": 4.6,
+    "flexibility": 1,
+    "durability": 250,
+    "armor_durability_offset": -10,
+    "enchantability": 22,
+    "tier": 3,
+    "mining_speed": 7,
+    "mining_level": "minecraft:incorrect_for_diamond_tool",
+    "properties": {
+        "helmet": {
+            "attributes": [
+                {
+                    "slot": "head",
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "+",
+                    "value": "10"
+                }
+            ]
+        },
+        "chest": {
+            "attributes": [
+                {
+                    "slot": "chest",
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "+",
+                    "value": "2"
+                }
+            ]
+        },
+        "pants": {
+            "attributes": [
+                {
+                    "slot": "legs",
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "+",
+                    "value": "3.3333333333333333333334"
+                }
+            ]
+        },
+        "boot": {
+            "attributes": [
+                {
+                    "slot": "feet",
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "+",
+                    "value": "5"
+                }
+            ]
+         },
+        "blade":{
+            "attributes": [
+                {
+                    "slot": "mainhand",
+                    "attribute": "aces_spell_utils:mana_rend",
+                    "operation": "+",
+                    "value": "0.05"
+                }
+            ]
+        }
+    },
+    "color": "B063F7",
+    "color_palette": {
+        "type": "layered_mask",
+        "base": {
+            "type": "grayscale_map",
+            "colors": {
+                "0": "000040",
+                "63": "000080",
+                "127": "0000FF",
+                "191": "66B2FF",
+                "255": "ADD8E6"
+            }
+        },
+        "layer": {
+            "type": "grayscale_map",
+            "colors": {
+                "0": "400040",
+                "63": "800080",
+                "127": "FF00FF",
+                "191": "FF69B4",
+                "255": "FFB6C1"
+            }
+        },
+        "mask": {
+            "type": "texture",
+            "atlas": "block",
+            "texture": "potetospellbooks:item/gradient_1"
+        }
+    },
+    "textures": [
+        "metallic",
+        "bright"
+    ],
+    "items": [
+        {
+            "item": "irons_spellbooks:arcane_ingot",
+            "value": 1.0
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "icon": {
+        "type": "item",
+        "item": "irons_spellbooks:fire_rune"
+    },
+    "groups": [
+        "smithing",
+        "arcane",
+        "rune"
+    ],
+    "hardness": 7,
+    "density": 3,
+    "flexibility": 1,
+
+    "durability": 592,
+    "armor_durability_offset": 0,
+    "enchantability": 22,
+    
+    "tier": 4,
+    "mining_speed": 0,
+    "mining_level": "minecraft:incorrect_for_wooden_tool",
+    
+    "color": "B063F7",
+    "color_palette": {
+        "type": "grayscale_map",
+        "colors": {
+            "31": "1F0F01",
+            "240": "F03512"
+        }
+    },
+    "textures": [
+        "fabric"
+    ],
+
+    "items": [
+      {
+        "item": "irons_spellbooks:magic_cloth",
+        "value": 1.0
+      }
+    ]
+  }
