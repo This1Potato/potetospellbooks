@@ -1,12 +1,14 @@
 package com.the1poteto.potetospellbooks.Registries;
 
-import smartin.miapi.item.modular.items.tools.ModularWeapon;
+import net.minecraft.resources.ResourceLocation;
 import static smartin.miapi.registries.RegistryInventory.MODULAR_ITEMS;
-import static smartin.miapi.registries.RegistryInventory.register;
+import smartin.miapi.item.modular.items.tools.ModularWeapon;
 
 public class ItemRegistry {
-    public static void itemSetup() {
-        register(MODULAR_ITEMS, "modular_staff", ModularWeapon::new);
-        register(MODULAR_ITEMS, "modular_wand", ModularWeapon::new);
+    public static void itemSetup(){
+        MODULAR_ITEMS.register(ResourceLocation.fromNamespaceAndPath("potetospellbooks", "modular_staff"), ModularWeapon::new);
+        MODULAR_ITEMS.register(ResourceLocation.fromNamespaceAndPath("potetospellbooks", "modular_wand"), ModularWeapon::new);
+        MODULAR_ITEMS.register(ResourceLocation.fromNamespaceAndPath("potetospellbooks", "modular_spellcaster_gauntlet"), ModularWeapon::new);
+        MODULAR_ITEMS.register(ResourceLocation.fromNamespaceAndPath("potetospellbooks", "modular_spellbook"), ModularWeapon::new);
     }
 }

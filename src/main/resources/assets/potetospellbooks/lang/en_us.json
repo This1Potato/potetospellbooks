@@ -4,197 +4,197 @@
     "miapi.material_group.arcane":"Arcane",
     "miapi.material_group.rune":"Runes",
 
-    "miapi.material.potetospellbooks.arcane.blood":"Cultist",
-    "miapi.material.potetospellbooks.arcane.ender":"Shadow-walker",
-    "miapi.material.potetospellbooks.arcane.evocation":"Archevoker",
-    "miapi.material.potetospellbooks.arcane.fire":"Pyromancer",
-    "miapi.material.potetospellbooks.arcane.holy":"Priest",
-    "miapi.material.potetospellbooks.arcane.ice":"Cryomancer",
-    "miapi.material.potetospellbooks.arcane.lightning":"Electromancer",
-    "miapi.material.potetospellbooks.arcane.nature":"Druid",
+    "potetospellbooks.miapi.material.arcane.blood":"Cultist",
+    "potetospellbooks.miapi.material.arcane.ender":"Shadow-walker",
+    "potetospellbooks.miapi.material.arcane.evocation":"Archevoker",
+    "potetospellbooks.miapi.material.arcane.fire":"Pyromancer",
+    "potetospellbooks.miapi.material.arcane.holy":"Priest",
+    "potetospellbooks.miapi.material.arcane.ice":"Cryomancer",
+    "potetospellbooks.miapi.material.arcane.lightning":"Electromancer",
+    "potetospellbooks.miapi.material.arcane.nature":"Druid",
 
-    "miapi.material.potetospellbooks.fabric.magic_cloth":"Wizard",
+    "potetospellbooks.miapi.material.fabric.magic_cloth":"Wizard",
 
-    "miapi.material.potetospellbooks.metal.pyrium_ingot":"Pyrium",
-    "miapi.material.potetospellbooks.metal.arcane_ingot":"Arcane",
-    "miapi.material.potetospellbooks.metal.mithril_ingot":"Mithril",
+    "potetospellbooks.miapi.material.metal.pyrium_ingot":"Pyrium",
+    "potetospellbooks.miapi.material.metal.arcane_ingot":"Arcane",
+    "potetospellbooks.miapi.material.metal.mithril_ingot":"Mithril",
 
-    "miapi.material.potetospellbooks.rune": "Runes",
-    "miapi.material.potetospellbooks.arcane": "Arcane",
+    "potetospellbooks.miapi.material.rune": "Runes",
+    "potetospellbooks.miapi.material.arcane": "Arcane",
 
     
     
     
-    "miapi.module.potetospellbooks.armor.wizard_base.helmet": "Wizard Hat",
-    "miapi.module.potetospellbooks.armor.wizard_base.helmet.name": "%s Hat",
-    "miapi.module.potetospellbooks.armor.wizard_base.helmet.description": "A classic wizard hat, offering balanced defense and magical power.",
+    "potetospellbooks.miapi.module.armor.wizard_base.helmet": "Wizard Hat",
+    "potetospellbooks.miapi.module.armor.wizard_base.helmet.name": "%s Hat",
+    "potetospellbooks.miapi.module.armor.wizard_base.helmet.description": "A classic wizard hat, offering balanced defense and magical power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_base.arm_left": "Wizard Left Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_base.arm_left.name": "%s Left Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_base.arm_left.description": "A sleeve that balances protection and magical enhancement.",
+    "potetospellbooks.miapi.module.armor.wizard_base.arm_left": "Wizard Left Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_base.arm_left.name": "%s Left Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_base.arm_left.description": "A sleeve that balances protection and magical enhancement.",
 
-    "miapi.module.potetospellbooks.armor.wizard_base.arm_right": "Wizard Right Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_base.arm_right.name": "%s Right Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_base.arm_right.description": "A sleeve that balances protection and magical enhancement.",
+    "potetospellbooks.miapi.module.armor.wizard_base.arm_right": "Wizard Right Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_base.arm_right.name": "%s Right Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_base.arm_right.description": "A sleeve that balances protection and magical enhancement.",
 
-    "miapi.module.potetospellbooks.armor.wizard_base.back_chest": "Wizard Backplate",
-    "miapi.module.potetospellbooks.armor.wizard_base.back_chest.name": "%s Backplate",
-    "miapi.module.potetospellbooks.armor.wizard_base.back_chest.description": "A backplate that balances defense and magical power.",
+    "potetospellbooks.miapi.module.armor.wizard_base.back_chest": "Wizard Backplate",
+    "potetospellbooks.miapi.module.armor.wizard_base.back_chest.name": "%s Backplate",
+    "potetospellbooks.miapi.module.armor.wizard_base.back_chest.description": "A backplate that balances defense and magical power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_base.belt": "Wizard Belt",
-    "miapi.module.potetospellbooks.armor.wizard_base.belt.name": "%s Belt",
-    "miapi.module.potetospellbooks.armor.wizard_base.belt.description": "A belt that secures the armor and channels balanced magical power.",
+    "potetospellbooks.miapi.module.armor.wizard_base.belt": "Wizard Belt",
+    "potetospellbooks.miapi.module.armor.wizard_base.belt.name": "%s Belt",
+    "potetospellbooks.miapi.module.armor.wizard_base.belt.description": "A belt that secures the armor and channels balanced magical power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_base.boot_left": "Wizard Left Boot",
-    "miapi.module.potetospellbooks.armor.wizard_base.boot_left.name": "%s Left Boot",
-    "miapi.module.potetospellbooks.armor.wizard_base.boot_left.description": "A boot that offers balanced protection and magical enhancement.",
+    "potetospellbooks.miapi.module.armor.wizard_base.boot_left": "Wizard Left Boot",
+    "potetospellbooks.miapi.module.armor.wizard_base.boot_left.name": "%s Left Boot",
+    "potetospellbooks.miapi.module.armor.wizard_base.boot_left.description": "A boot that offers balanced protection and magical enhancement.",
 
-    "miapi.module.potetospellbooks.armor.wizard_base.boot_right": "Wizard Right Boot",
-    "miapi.module.potetospellbooks.armor.wizard_base.boot_right.name": "%s Right Boot",
-    "miapi.module.potetospellbooks.armor.wizard_base.boot_right.description": "A boot that offers balanced protection and magical enhancement.",
+    "potetospellbooks.miapi.module.armor.wizard_base.boot_right": "Wizard Right Boot",
+    "potetospellbooks.miapi.module.armor.wizard_base.boot_right.name": "%s Right Boot",
+    "potetospellbooks.miapi.module.armor.wizard_base.boot_right.description": "A boot that offers balanced protection and magical enhancement.",
 
-    "miapi.module.potetospellbooks.armor.wizard_base.front_chest": "Wizard Robe",
-    "miapi.module.potetospellbooks.armor.wizard_base.front_chest.name": "%s Robe",
-    "miapi.module.potetospellbooks.armor.wizard_base.front_chest.description": "A robe that balances defense and magical power.",
+    "potetospellbooks.miapi.module.armor.wizard_base.front_chest": "Wizard Robe",
+    "potetospellbooks.miapi.module.armor.wizard_base.front_chest.name": "%s Robe",
+    "potetospellbooks.miapi.module.armor.wizard_base.front_chest.description": "A robe that balances defense and magical power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_base.leg_left": "Wizard Left Legging",
-    "miapi.module.potetospellbooks.armor.wizard_base.leg_left.name": "%s Left Legging",
-    "miapi.module.potetospellbooks.armor.wizard_base.leg_left.description": "Leg armor that balances protection and magical enhancement.",
+    "potetospellbooks.miapi.module.armor.wizard_base.leg_left": "Wizard Left Legging",
+    "potetospellbooks.miapi.module.armor.wizard_base.leg_left.name": "%s Left Legging",
+    "potetospellbooks.miapi.module.armor.wizard_base.leg_left.description": "Leg armor that balances protection and magical enhancement.",
 
-    "miapi.module.potetospellbooks.armor.wizard_base.leg_right": "Wizard Right Legging",
-    "miapi.module.potetospellbooks.armor.wizard_base.leg_right.name": "%s Right Legging",
-    "miapi.module.potetospellbooks.armor.wizard_base.leg_right.description": "Leg armor that balances protection and magical enhancement.",
-
-
-
-
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.helmet": "Battlemage Helm",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.helmet.name": "%s Battlemage Helm",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.helmet.description": "A helm focused on physical defense, offering less spell power.",
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.arm_left": "Battlemage Left Gauntlet",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.arm_left.name": "%s Battlemage Left Gauntlet",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.arm_left.description": "A reinforced sleeve for physical defense, sacrificing spell power.",
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.arm_right": "Battlemage Right Gauntlet",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.arm_right.name": "%s Battlemage Right Gauntlet",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.arm_right.description": "A reinforced sleeve for physical defense, sacrificing spell power.",
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.back_chest": "Battlemage Backplate",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.back_chest.name": "%s Battlemage Backplate",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.back_chest.description": "A heavy backplate for maximum defense, with reduced magical power.",
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.belt": "Battlemage Belt",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.belt.name": "%s Battlemage Belt",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.belt.description": "A sturdy belt that enhances physical protection.",
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.boot_left": "Battlemage Left Greave",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.boot_left.name": "%s Battlemage Left Greave",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.boot_left.description": "A greave focused on physical defense, offering less spell power.",
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.boot_right": "Battlemage Right Greave",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.boot_right.name": "%s Battlemage Right Greave",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.boot_right.description": "A greave focused on physical defense, offering less spell power.",
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.front_chest": "Battlemage Cuirass",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.front_chest.name": "%s Battlemage Cuirass",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.front_chest.description": "A chestplate with high physical defense and reduced spell power.",
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.leg_left": "Battlemage Left Legguard",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.leg_left.name": "%s Battlemage Left Legguard",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.leg_left.description": "Leg armor focused on defense, sacrificing spell power.",
-
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.leg_right": "Battlemage Right Legguard",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.leg_right.name": "%s Battlemage Right Legguard",
-    "miapi.module.potetospellbooks.armor.wizard_battlemage.leg_right.description": "Leg armor focused on defense, sacrificing spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_base.leg_right": "Wizard Right Legging",
+    "potetospellbooks.miapi.module.armor.wizard_base.leg_right.name": "%s Right Legging",
+    "potetospellbooks.miapi.module.armor.wizard_base.leg_right.description": "Leg armor that balances protection and magical enhancement.",
 
 
 
 
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.helmet": "Sage Hood",
-    "miapi.module.potetospellbooks.armor.wizard_sage.helmet.name": "%s Sage Hood",
-    "miapi.module.potetospellbooks.armor.wizard_sage.helmet.description": "A hood that increases mana and reduces spell cooldown, but offers less defense and spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.helmet": "Battlemage Helm",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.helmet.name": "%s Battlemage Helm",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.helmet.description": "A helm focused on physical defense, offering less spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.arm_left": "Sage Left Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_sage.arm_left.name": "%s Sage Left Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_sage.arm_left.description": "A sleeve that boosts mana and reduces cooldown, with less defense and spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.arm_left": "Battlemage Left Gauntlet",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.arm_left.name": "%s Battlemage Left Gauntlet",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.arm_left.description": "A reinforced sleeve for physical defense, sacrificing spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.arm_right": "Sage Right Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_sage.arm_right.name": "%s Sage Right Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_sage.arm_right.description": "A sleeve that boosts mana and reduces cooldown, with less defense and spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.arm_right": "Battlemage Right Gauntlet",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.arm_right.name": "%s Battlemage Right Gauntlet",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.arm_right.description": "A reinforced sleeve for physical defense, sacrificing spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.back_chest": "Sage Backcloth",
-    "miapi.module.potetospellbooks.armor.wizard_sage.back_chest.name": "%s Sage Backcloth",
-    "miapi.module.potetospellbooks.armor.wizard_sage.back_chest.description": "A backcloth that increases mana and reduces cooldown, but offers less defense and spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.back_chest": "Battlemage Backplate",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.back_chest.name": "%s Battlemage Backplate",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.back_chest.description": "A heavy backplate for maximum defense, with reduced magical power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.belt": "Sage Sash",
-    "miapi.module.potetospellbooks.armor.wizard_sage.belt.name": "%s Sage Sash",
-    "miapi.module.potetospellbooks.armor.wizard_sage.belt.description": "A sash that boosts mana and reduces cooldown, with less defense and spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.belt": "Battlemage Belt",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.belt.name": "%s Battlemage Belt",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.belt.description": "A sturdy belt that enhances physical protection.",
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.boot_left": "Sage Left Sandal",
-    "miapi.module.potetospellbooks.armor.wizard_sage.boot_left.name": "%s Sage Left Sandal",
-    "miapi.module.potetospellbooks.armor.wizard_sage.boot_left.description": "A sandal that increases mana and reduces cooldown, but offers less defense and spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.boot_left": "Battlemage Left Greave",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.boot_left.name": "%s Battlemage Left Greave",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.boot_left.description": "A greave focused on physical defense, offering less spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.boot_right": "Sage Right Sandal",
-    "miapi.module.potetospellbooks.armor.wizard_sage.boot_right.name": "%s Sage Right Sandal",
-    "miapi.module.potetospellbooks.armor.wizard_sage.boot_right.description": "A sandal that increases mana and reduces cooldown, but offers less defense and spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.boot_right": "Battlemage Right Greave",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.boot_right.name": "%s Battlemage Right Greave",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.boot_right.description": "A greave focused on physical defense, offering less spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.front_chest": "Sage Robe",
-    "miapi.module.potetospellbooks.armor.wizard_sage.front_chest.name": "%s Sage Robe",
-    "miapi.module.potetospellbooks.armor.wizard_sage.front_chest.description": "A robe that boosts mana and reduces cooldown, with less defense and spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.front_chest": "Battlemage Cuirass",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.front_chest.name": "%s Battlemage Cuirass",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.front_chest.description": "A chestplate with high physical defense and reduced spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.leg_left": "Sage Left Pant",
-    "miapi.module.potetospellbooks.armor.wizard_sage.leg_left.name": "%s Sage Left Pant",
-    "miapi.module.potetospellbooks.armor.wizard_sage.leg_left.description": "Legwear that increases mana and reduces cooldown, but offers less defense and spell power.",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.leg_left": "Battlemage Left Legguard",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.leg_left.name": "%s Battlemage Left Legguard",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.leg_left.description": "Leg armor focused on defense, sacrificing spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_sage.leg_right": "Sage Right Pant",
-    "miapi.module.potetospellbooks.armor.wizard_sage.leg_right.name": "%s Sage Right Pant",
-    "miapi.module.potetospellbooks.armor.wizard_sage.leg_right.description": "Legwear that increases mana and reduces cooldown, but offers less defense and spell power.",
-
-
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.leg_right": "Battlemage Right Legguard",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.leg_right.name": "%s Battlemage Right Legguard",
+    "potetospellbooks.miapi.module.armor.wizard_battlemage.leg_right.description": "Leg armor focused on defense, sacrificing spell power.",
 
 
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.helmet": "Warlock Hood",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.helmet.name": "%s Warlock Hood",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.helmet.description": "A hood that greatly enhances spell power at the cost of physical defense.",
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.arm_left": "Warlock Left Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.arm_left.name": "%s Warlock Left Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.arm_left.description": "A sleeve that greatly enhances spell power at the cost of physical defense.",
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.arm_right": "Warlock Right Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.arm_right.name": "%s Warlock Right Sleeve",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.arm_right.description": "A sleeve that greatly enhances spell power at the cost of physical defense.",
+    "potetospellbooks.miapi.module.armor.wizard_sage.helmet": "Sage Hood",
+    "potetospellbooks.miapi.module.armor.wizard_sage.helmet.name": "%s Sage Hood",
+    "potetospellbooks.miapi.module.armor.wizard_sage.helmet.description": "A hood that increases mana and reduces spell cooldown, but offers less defense and spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.back_chest": "Warlock Backcloth",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.back_chest.name": "%s Warlock Backcloth",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.back_chest.description": "A backcloth that greatly enhances spell power at the cost of physical defense.",
+    "potetospellbooks.miapi.module.armor.wizard_sage.arm_left": "Sage Left Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_sage.arm_left.name": "%s Sage Left Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_sage.arm_left.description": "A sleeve that boosts mana and reduces cooldown, with less defense and spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.belt": "Warlock Sash",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.belt.name": "%s Warlock Sash",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.belt.description": "A sash that greatly enhances spell power at the cost of physical defense.",
+    "potetospellbooks.miapi.module.armor.wizard_sage.arm_right": "Sage Right Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_sage.arm_right.name": "%s Sage Right Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_sage.arm_right.description": "A sleeve that boosts mana and reduces cooldown, with less defense and spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.boot_left": "Warlock Left Slipper",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.boot_left.name": "%s Warlock Left Slipper",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.boot_left.description": "A slipper that greatly enhances spell power at the cost of physical defense.",
+    "potetospellbooks.miapi.module.armor.wizard_sage.back_chest": "Sage Backcloth",
+    "potetospellbooks.miapi.module.armor.wizard_sage.back_chest.name": "%s Sage Backcloth",
+    "potetospellbooks.miapi.module.armor.wizard_sage.back_chest.description": "A backcloth that increases mana and reduces cooldown, but offers less defense and spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.boot_right": "Warlock Right Slipper",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.boot_right.name": "%s Warlock Right Slipper",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.boot_right.description": "A slipper that greatly enhances spell power at the cost of physical defense.",
+    "potetospellbooks.miapi.module.armor.wizard_sage.belt": "Sage Sash",
+    "potetospellbooks.miapi.module.armor.wizard_sage.belt.name": "%s Sage Sash",
+    "potetospellbooks.miapi.module.armor.wizard_sage.belt.description": "A sash that boosts mana and reduces cooldown, with less defense and spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.front_chest": "Warlock Robe",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.front_chest.name": "%s Warlock Robe",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.front_chest.description": "A robe that greatly enhances spell power at the cost of physical defense.",
+    "potetospellbooks.miapi.module.armor.wizard_sage.boot_left": "Sage Left Sandal",
+    "potetospellbooks.miapi.module.armor.wizard_sage.boot_left.name": "%s Sage Left Sandal",
+    "potetospellbooks.miapi.module.armor.wizard_sage.boot_left.description": "A sandal that increases mana and reduces cooldown, but offers less defense and spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.leg_left": "Warlock Left Pant",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.leg_left.name": "%s Warlock Left Pant",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.leg_left.description": "Legwear that greatly enhances spell power at the cost of physical defense.",
+    "potetospellbooks.miapi.module.armor.wizard_sage.boot_right": "Sage Right Sandal",
+    "potetospellbooks.miapi.module.armor.wizard_sage.boot_right.name": "%s Sage Right Sandal",
+    "potetospellbooks.miapi.module.armor.wizard_sage.boot_right.description": "A sandal that increases mana and reduces cooldown, but offers less defense and spell power.",
 
-    "miapi.module.potetospellbooks.armor.wizard_warlock.leg_right": "Warlock Right Pant",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.leg_right.name": "%s Warlock Right Pant",
-    "miapi.module.potetospellbooks.armor.wizard_warlock.leg_right.description": "Legwear that greatly enhances spell power at the cost of physical defense."
+    "potetospellbooks.miapi.module.armor.wizard_sage.front_chest": "Sage Robe",
+    "potetospellbooks.miapi.module.armor.wizard_sage.front_chest.name": "%s Sage Robe",
+    "potetospellbooks.miapi.module.armor.wizard_sage.front_chest.description": "A robe that boosts mana and reduces cooldown, with less defense and spell power.",
+
+    "potetospellbooks.miapi.module.armor.wizard_sage.leg_left": "Sage Left Pant",
+    "potetospellbooks.miapi.module.armor.wizard_sage.leg_left.name": "%s Sage Left Pant",
+    "potetospellbooks.miapi.module.armor.wizard_sage.leg_left.description": "Legwear that increases mana and reduces cooldown, but offers less defense and spell power.",
+
+    "potetospellbooks.miapi.module.armor.wizard_sage.leg_right": "Sage Right Pant",
+    "potetospellbooks.miapi.module.armor.wizard_sage.leg_right.name": "%s Sage Right Pant",
+    "potetospellbooks.miapi.module.armor.wizard_sage.leg_right.description": "Legwear that increases mana and reduces cooldown, but offers less defense and spell power.",
+
+
+
+
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.helmet": "Warlock Hood",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.helmet.name": "%s Warlock Hood",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.helmet.description": "A hood that greatly enhances spell power at the cost of physical defense.",
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.arm_left": "Warlock Left Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.arm_left.name": "%s Warlock Left Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.arm_left.description": "A sleeve that greatly enhances spell power at the cost of physical defense.",
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.arm_right": "Warlock Right Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.arm_right.name": "%s Warlock Right Sleeve",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.arm_right.description": "A sleeve that greatly enhances spell power at the cost of physical defense.",
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.back_chest": "Warlock Backcloth",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.back_chest.name": "%s Warlock Backcloth",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.back_chest.description": "A backcloth that greatly enhances spell power at the cost of physical defense.",
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.belt": "Warlock Sash",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.belt.name": "%s Warlock Sash",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.belt.description": "A sash that greatly enhances spell power at the cost of physical defense.",
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.boot_left": "Warlock Left Slipper",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.boot_left.name": "%s Warlock Left Slipper",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.boot_left.description": "A slipper that greatly enhances spell power at the cost of physical defense.",
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.boot_right": "Warlock Right Slipper",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.boot_right.name": "%s Warlock Right Slipper",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.boot_right.description": "A slipper that greatly enhances spell power at the cost of physical defense.",
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.front_chest": "Warlock Robe",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.front_chest.name": "%s Warlock Robe",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.front_chest.description": "A robe that greatly enhances spell power at the cost of physical defense.",
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.leg_left": "Warlock Left Pant",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.leg_left.name": "%s Warlock Left Pant",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.leg_left.description": "Legwear that greatly enhances spell power at the cost of physical defense.",
+
+    "potetospellbooks.miapi.module.armor.wizard_warlock.leg_right": "Warlock Right Pant",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.leg_right.name": "%s Warlock Right Pant",
+    "potetospellbooks.miapi.module.armor.wizard_warlock.leg_right.description": "Legwear that greatly enhances spell power at the cost of physical defense."
 
 }
