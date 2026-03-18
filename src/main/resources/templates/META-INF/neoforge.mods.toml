@@ -25,3 +25,10 @@ Modular Spellbooks, Weapons and Armors for Iron's Spellbooks, powered by the Mod
     versionRange="[1.21.1]"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.potetospellbooks]]
+    modId="miapi"
+    type="required"
+    versionRange="[2.2.4,)"
+    ordering="AFTER"
+    side="BOTH"

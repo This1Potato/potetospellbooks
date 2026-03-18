@@ -6,15 +6,15 @@
     "groups": [
         "metal",
         "smithing",
-        "arcane"
+        "arcane_metal"
     ],
     "hardness": 8,
-    "density": 2.8,
+    "density": 2.4,
     "flexibility": 3,
-    "enchantability": 15,
-    "durability": 2031,
+    "enchantability": 22,
+    "durability": 2016,
     "tier": 6,
-    "armor_durability_offset": -1439,
+    "armor_durability": 40,
     "mining_speed": 7,
     "mining_level": "minecraft:incorrect_for_netherite_tool",
     "properties": {
@@ -24,7 +24,7 @@
                     "slot": "head",
                     "attribute": "irons_spellbooks:max_mana",
                     "operation": "+",
-                    "value": "20"
+                    "value": "45"
                 },
                 {
                     "slot": "head",
@@ -40,7 +40,7 @@
                     "slot": "chest",
                     "attribute": "irons_spellbooks:max_mana",
                     "operation": "+",
-                    "value": "5"
+                    "value": "11.25"
                 },
                 {
                     "slot": "chest",

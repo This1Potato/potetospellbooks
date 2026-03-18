@@ -23,4 +23,9 @@ run
 runs
 run-data
 
+.gitignore
+
 repo
+
+# code_references
+references.*
