@@ -1,7 +1,7 @@
 {
     "icon": {
         "type": "item",
-        "item": "irons_spellbooks:magic_cloth"
+        "item": "irons_spellbooks:ender_rune"
     },
     "groups": [
         "smithing",
@@ -24,8 +24,8 @@
     "color_palette": {
         "type": "grayscale_map",
         "colors": {
-            "83": "532D03",
-            "255": "FFFA9E"
+            "24": "18011F",
+            "113": "710D9E"
         }
     },
     "textures": [
@@ -34,7 +34,7 @@
 
     "items": [
       {
-        "item": "irons_spellbooks:ice_rune",
+        "item": "irons_spellbooks:ender_rune",
         "value": 1.0
       }
     ]

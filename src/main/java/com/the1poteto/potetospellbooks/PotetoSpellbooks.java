@@ -1,6 +1,6 @@
 package com.the1poteto.potetospellbooks;
 
-import com.the1poteto.potetospellbooks.registries.ItemRegistry;
+import com.the1poteto.potetospellbooks.Registries.ItemRegistry;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 

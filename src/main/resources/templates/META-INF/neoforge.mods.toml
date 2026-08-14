@@ -6,7 +6,7 @@ license="${mod_license}"
 [[mods]]
 modId="potetospellbooks"
 version="${mod_version}"
-displayName="${mod_name}"
+displayName="Poteto Spellbooks: Modular Casting Tools"
 authors="Poteto!"
 description='''
 Modular Spellbooks, Weapons and Armors for Iron's Spellbooks, powered by the Modular Item API!

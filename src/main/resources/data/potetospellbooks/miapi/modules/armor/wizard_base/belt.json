@@ -54,7 +54,8 @@
             ],
             "allowed_material": {
                 "allowedMaterials": [
-                    "arcane"
+                    "arcane_cloth",
+"rune"
                 ],
                 "cost": 3
             },

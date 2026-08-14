@@ -17,46 +17,48 @@
     "mining_speed": 7,
     "mining_level": "minecraft:incorrect_for_diamond_tool",
     "properties": {
-        "helmet": {
-            "attributes": [
-                {
-                    "slot": "head",
-                    "attribute": "irons_spellbooks:max_mana",
-                    "operation": "+",
-                    "value": "10"
-                }
-            ]
+        "default":{
+            "helmet": {
+                "attributes": [
+                    {
+                        "slot": "head",
+                        "attribute": "irons_spellbooks:max_mana",
+                        "operation": "+",
+                        "value": "10"
+                    }
+                ]
+            },
+            "chest": {
+                "attributes": [
+                    {
+                        "slot": "chest",
+                        "attribute": "irons_spellbooks:max_mana",
+                        "operation": "+",
+                        "value": "2.5"
+                    }
+                ]
+            },
+            "pants": {
+                "attributes": [
+                    {
+                        "slot": "legs",
+                        "attribute": "irons_spellbooks:max_mana",
+                        "operation": "+",
+                        "value": "3.3333333333333333333334"
+                    }
+                ]
+            },
+            "boot": {
+                "attributes": [
+                    {
+                        "slot": "feet",
+                        "attribute": "irons_spellbooks:max_mana",
+                        "operation": "+",
+                        "value": "5"
+                    }
+                ]
+            }
         },
-        "chest": {
-            "attributes": [
-                {
-                    "slot": "chest",
-                    "attribute": "irons_spellbooks:max_mana",
-                    "operation": "+",
-                    "value": "2.5"
-                }
-            ]
-        },
-        "pants": {
-            "attributes": [
-                {
-                    "slot": "legs",
-                    "attribute": "irons_spellbooks:max_mana",
-                    "operation": "+",
-                    "value": "3.3333333333333333333334"
-                }
-            ]
-        },
-        "boot": {
-            "attributes": [
-                {
-                    "slot": "feet",
-                    "attribute": "irons_spellbooks:max_mana",
-                    "operation": "+",
-                    "value": "5"
-                }
-            ]
-         },
         "blade":{
             "attributes": [
                 {
@@ -94,7 +96,7 @@
         "mask": {
             "type": "texture",
             "atlas": "block",
-            "texture": "potetospellbooks:item/gradient_1"
+            "texture": "potetospellbooks:item/gradient_3"
         }
     },
     "textures": [

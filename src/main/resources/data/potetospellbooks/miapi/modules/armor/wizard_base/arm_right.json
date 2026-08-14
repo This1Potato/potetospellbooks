@@ -92,7 +92,8 @@
             "durability": "[material-module.armor_durability] * 2",
             "allowed_material": {
                 "allowedMaterials": [
-                    "arcane"
+                    "arcane_cloth",
+"rune"
                 ],
                 "cost": 1
             },

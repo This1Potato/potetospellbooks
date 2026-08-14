@@ -43,7 +43,7 @@
         "mask": {
             "type": "texture",
             "atlas": "block",
-            "texture": "potetospellbooks:item/gradient_1"
+            "texture": "potetospellbooks:item/gradient_3"
         }
     },
     "textures": [

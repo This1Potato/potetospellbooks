@@ -7,5 +7,5 @@
         "item": "irons_spellbooks:arcane_essence"
     },
     "base": "potetospellbooks:fabric/magic_cloth",
-    "result": "potetospellbooks:arcane/ender"
+    "result": "potetospellbooks:rune/ender"
 }
