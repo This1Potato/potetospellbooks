@@ -8,6 +8,7 @@
         "arcane",
         "rune"
     ],
+    "evocation": 1,
     "hardness": 7,
     "density": 3,
     "flexibility": 1,

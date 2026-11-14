@@ -1,0 +1,58 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "potetospellbooks:item/armor/base/base_wiz_hat",
+		"particle": "miapi:item/armor/base/default/layer_1"
+	},
+	"elements": [
+		{
+			"name": "rim",
+			"from": [-0.001, 16.09005, -0.48974],
+			"to": [18.001, 16.09205, 17.51226],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 20.08869, 6.41845]},
+			"faces": {
+				"north": {"uv": [0, 2.25, 2.25, 2.25], "texture": "#0"},
+				"east": {"uv": [-2.25, 2.25, 0, 2.25], "texture": "#0"},
+				"south": {"uv": [4.5, 2.25, 6.75, 2.25], "texture": "#0"},
+				"west": {"uv": [2.25, 2.25, 4.5, 2.25], "texture": "#0"},
+				"up": {"uv": [2.25, 2.25, 0, 0], "texture": "#0"},
+				"down": {"uv": [4.5, 0, 2.25, 2.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "crown",
+			"from": [4, 16.09105, 3.51126],
+			"to": [14, 20.09105, 13.51126],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 20.08869, 6.41845]},
+			"faces": {
+				"north": {"uv": [5.75, 1.25, 7, 1.75], "texture": "#0"},
+				"east": {"uv": [4.5, 1.25, 5.75, 1.75], "texture": "#0"},
+				"south": {"uv": [8.25, 1.25, 9.5, 1.75], "texture": "#0"},
+				"west": {"uv": [7, 1.25, 8.25, 1.75], "texture": "#0"},
+				"up": {"uv": [7, 1.25, 5.75, 0], "texture": "#0"},
+				"down": {"uv": [8.25, 0, 7, 1.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		{
+			"name": "model",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "base",
+					"origin": [0, 30.5, -5],
+					"rotation": [10, 0, 0],
+					"scope": 0,
+					"color": 2,
+					"children": [0, 1]
+				}
+			]
+		}
+	]
+}

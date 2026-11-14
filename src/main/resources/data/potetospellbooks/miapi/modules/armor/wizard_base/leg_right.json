@@ -61,6 +61,60 @@
                     "value": "[module.armor]",
                     "operation": "+",
                     "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": "0.0175",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": "0.035 * [material.blood]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "value": "0.035 * [material.ender]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": "0.035 * [material.fire]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": "0.035 * [material.holy]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": "0.035 * [material.nature]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": "0.035 * [material.lightning]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": "0.035 * [material.ice]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "value": "0.035 * [material.evocation]",
+                    "operation": "+",
+                    "slot": "legs"
                 }
             ],
             "durability": "[material-module.armor_durability] * 5",

@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "potetospellbooks:item/armor/base/base_wiz_hat",
+		"particle": "miapi:item/armor/base/default/layer_1"
+	},
+	"elements": [
+		{
+			"name": "trim",
+			"from": [3.75, 16.23483, 3.19084],
+			"to": [14.25, 18.23483, 13.69084],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 20.08869, 6.41845]},
+			"faces": {
+				"north": {"uv": [5.75, 3.5, 7, 3.875], "texture": "#0"},
+				"east": {"uv": [4.5, 3.5, 5.75, 3.875], "texture": "#0"},
+				"south": {"uv": [8.25, 3.5, 9.5, 3.875], "texture": "#0"},
+				"west": {"uv": [7, 3.5, 8.25, 3.875], "texture": "#0"},
+				"up": {"uv": [7, 3.5, 5.75, 2.25], "texture": "#0"},
+				"down": {"uv": [8.25, 2.25, 7, 3.5], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "model",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "belt",
+					"origin": [0, 30.5, 5],
+					"rotation": [2.5, 0, 0],
+					"scope": 0,
+					"color": 3,
+					"children": [0]
+				}
+			]
+		}
+	]
+}

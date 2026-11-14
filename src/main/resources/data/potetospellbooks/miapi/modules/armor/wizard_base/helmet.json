@@ -4,7 +4,7 @@
         "merge": {
             "model": [
                 {
-                    "path": "miapi:models/item/armor/model/helmet/base/[material.texture].json",
+                    "path": "potetospellbooks:models/item/armor/base_wiz/hat/base.json",
                     "trim_mode": "ARMOR_LAYER_ONE",
                     "transform": {
                         "rotation": {
@@ -14,7 +14,7 @@
                         },
                         "translation": {
                             "x": 0,
-                            "y": 0,
+                            "y": 3,
                             "z": 0
                         },
                         "scale": {
@@ -26,7 +26,8 @@
                     }
                 },
                 {
-                    "path": "miapi:models/item/armor/gui/base/helmet/base/[material.texture].json",
+                    "path": "potetospellbooks:models/item/armor/base_wiz/hat/middle.json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
                     "transform": {
                         "rotation": {
                             "x": 0,
@@ -35,7 +36,7 @@
                         },
                         "translation": {
                             "x": 0,
-                            "y": 0,
+                            "y": 3,
                             "z": 0
                         },
                         "scale": {
@@ -43,7 +44,51 @@
                             "y": 1,
                             "z": 1
                         },
-                        "origin": "item"
+                        "origin": "head"
+                    }
+                },
+                {
+                    "path": "potetospellbooks:models/item/armor/base_wiz/hat/top.json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 3,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "head"
+                    }
+                },
+                {
+                    "path": "potetospellbooks:models/item/armor/base_wiz/hat/trim.json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 3,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "head"
                     }
                 }
             ],
@@ -80,8 +125,7 @@
                 "helmet_plate"
             ],
             "module_stats": {
-                "armor": "floor([material.hardness]/2)",
-                "knockback_resistance": "(((((([material.tier]-1)-3)/(abs(([material.tier]-1)-3))))/(2))+0.5) * (([material.tier]-1)-3) / 10"
+                "armor": "floor([material.hardness]/2)"
             },
             "attributes": [
                 {
@@ -91,8 +135,56 @@
                     "slot": "head"
                 },
                 {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": "[module.knockback_resistance]",
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": "0.05",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": "0.1 * [material.blood]",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "value": "0.1 * [material.ender]",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": "0.1 * [material.fire]",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": "0.1 * [material.holy]",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": "0.1 * [material.nature]",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": "0.1 * [material.lightning]",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": "0.1 * [material.ice]",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "value": "0.1 * [material.evocation]",
                     "operation": "+",
                     "slot": "head"
                 }
