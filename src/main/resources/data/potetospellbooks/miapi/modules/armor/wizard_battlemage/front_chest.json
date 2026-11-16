@@ -1,0 +1,131 @@
+{
+    "parent": "tm_armory:armor/base",
+    "data": {
+        "merge": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/chest_front/base/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "body"
+                    }
+                },
+                {
+                    "path": "miapi:models/item/armor/gui/base/chest/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "slots": {
+                "banner-chest": {
+                    "allowed": [
+                        "chest_cosmetic"
+                    ],
+                    "slotType": "cosmetic",
+                    "translationKey": "miapi.slot.chest_center.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0.9,
+                            "z": -2.35
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 0.95,
+                            "z": 1.1
+                        },
+                        "origin": "body"
+                    }
+                }
+            },
+            "priority": 0,
+            "repair_priority": 1,
+            "allowed_in_slots": [
+                "chest_front"
+            ],
+            "module_stats": {
+                "armor": "([material.hardness] + 2 - ceil([material.flexibility]/4))/8*3"
+            },
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "[module.armor]",
+                    "operation": "+",
+                    "slot": "chest"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": "[material-module.armor_toughness]/2",
+                    "operation": "+",
+                    "slot": "chest"
+                }
+            ],
+            "durability": "[material-module.armor_durability] * 6",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "wood",
+                    "fabric",
+                    "skin",
+                    "metal",
+                    "flint",
+                    "bone",
+                    "stone",
+                    "crystal",
+                    "scute",
+                    "glass"
+                ],
+                "cost": 3
+            },
+            "enchantments": {
+                "allowed": [
+                    "minecraft:enchantable/chest_armor"
+                ]
+            },
+            "display_name": "miapi.module.tm_armory.armor.default.front_chest.name",
+            "module_tag": [
+                "chestplate",
+                "front_chest",
+                "chest",
+                "background_icon",
+                "default_armor",
+                "wizard_battlemage"
+            ]
+        }
+    }
+}

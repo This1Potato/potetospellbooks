@@ -1,0 +1,109 @@
+{
+    "parent": "potetospellbooks:armor/base",
+    "data": {
+        "merge": {
+            "model": [
+                {
+                    "path": "potetospellbooks:models/item/armor/base_wiz/hat/base.json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": -3.5,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "head"
+                    }
+                },
+                {
+                    "path": "miapi:models/item/armor/gui/base/helmet/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "slots": {
+                "hat": {
+                    "allowed": [
+                        "hat",
+                        "sub_hat"
+                    ],
+                    "translationKey": "miapi.slot.hat.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": -1,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1.1,
+                            "y": 1.1,
+                            "z": 1.1
+                        },
+                        "origin": "head"
+                    }
+                }
+            },
+            "priority": 0,
+            "repair_priority": 0,
+            "allowed_in_slots": [
+                "helmet_plate"
+            ],
+            "module_stats": {
+                "armor": "floor([material.hardness]/2)"
+            },
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "[module.armor]*0.65",
+                    "operation": "+",
+                    "slot": "head"
+                }
+            ],
+            "durability": "[material-module.armor_durability] * 11",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "arcane_cloth",
+                    "rune"
+                ],
+                "cost": 5
+            },
+            "display_name": "miapi.module.potetospellbooks.armor.wizard_archmage.helmet.name",
+            "module_tag": [
+                "helmet",
+                "background_icon",
+                "wizard_archmage"
+            ]
+        }
+    }
+}

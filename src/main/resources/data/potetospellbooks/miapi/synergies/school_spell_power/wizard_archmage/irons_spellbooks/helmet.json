@@ -1,6 +1,6 @@
 {
     "type": "tag",
-    "tag": "wizard_base",
+    "tag": "wizard_archmage",
     "condition": {
         "type": "tag",
         "tag": "helmet"
@@ -8,12 +8,6 @@
     "properties": {
         "merge": {
             "attributes": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": "[module.armor]",
-                    "operation": "+",
-                    "slot": "head"
-                },
                 {
                     "attribute": "irons_spellbooks:spell_power",
                     "value": "0.05",
@@ -70,7 +64,13 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": "125",
+                    "value": "200",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": "-0.05",
                     "operation": "+",
                     "slot": "head"
                 }

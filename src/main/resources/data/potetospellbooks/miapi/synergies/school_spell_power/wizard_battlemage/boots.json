@@ -1,0 +1,26 @@
+{
+    "type": "tag",
+    "tag": "wizard_battlemage",
+    "condition": {
+        "type": "tag",
+        "tag": "boot"
+    },
+    "properties": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": "[material.tier]/200",
+                    "operation": "+",
+                    "slot": "feet"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": "(25 * [material.tier])/2",
+                    "operation": "+",
+                    "slot": "feet"
+                }
+            ]
+        }
+    }
+}

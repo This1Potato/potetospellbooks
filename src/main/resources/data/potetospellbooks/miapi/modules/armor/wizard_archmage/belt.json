@@ -1,0 +1,83 @@
+{
+    "parent": "potetospellbooks:armor/base",
+    "data": {
+        "merge": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/belt/base/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_TWO",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "body"
+                    }
+                },
+                {
+                    "path": "miapi:models/item/armor/gui/base/belt/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "priority": 0,
+            "repair_priority": 0,
+            "allowed_in_slots": [
+                "belt"
+            ],
+            "allowed_material": {
+                "allowedMaterials": [
+                    "arcane_cloth",
+"rune"
+                ],
+                "cost": 3
+            },
+            "module_stats": {
+                "armor": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-1)/(7))*3"
+            },
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "[module.armor]*0.65",
+                    "operation": "+",
+                    "slot": "legs"
+                }
+            ],
+            "durability": "[material-module.armor_durability] * 5",
+            "display_name": "miapi.module.potetospellbooks.armor.wizard_archmage.belt.name",
+            "module_tag": [
+                "belt",
+                "pants",
+                "background_icon",
+                "wizard_archmage"
+            ]
+        }
+    }
+}

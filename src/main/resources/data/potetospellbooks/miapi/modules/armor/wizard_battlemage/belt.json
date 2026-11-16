@@ -1,0 +1,98 @@
+{
+    "parent": "tm_armory:armor/base",
+    "data": {
+        "merge": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/belt/base/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_TWO",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "body"
+                    }
+                },
+                {
+                    "path": "miapi:models/item/armor/gui/base/belt/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "priority": 0,
+            "repair_priority": 0,
+            "allowed_in_slots": [
+                "belt"
+            ],
+            "allowed_material": {
+                "allowedMaterials": [
+                    "wood",
+                    "fabric",
+                    "skin",
+                    "metal",
+                    "flint",
+                    "bone",
+                    "stone",
+                    "crystal",
+                    "scute",
+                    "glass"
+                ],
+                "cost": 3
+            },
+            "module_stats": {
+                "armor": "(([material.hardness]-ceil((([material.hardness])/(6.5)))+ceil((([material.hardness])/(4.5)))-1)/(7))*3"
+            },
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "[module.armor]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": "[material-module.armor_toughness]",
+                    "operation": "+",
+                    "slot": "legs"
+                }
+            ],
+            "durability": "[material-module.armor_durability] * 5",
+            "display_name": "miapi.module.tm_armory.armor.default.belt.name",
+            "module_tag": [
+                "belt",
+                "pants",
+                "background_icon",
+                "default_armor",
+                "wizard_battlemage"
+            ]
+        }
+    }
+}

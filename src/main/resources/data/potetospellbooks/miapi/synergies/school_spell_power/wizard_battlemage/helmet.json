@@ -1,0 +1,26 @@
+{
+    "type": "tag",
+    "tag": "wizard_battlemage",
+    "condition": {
+        "type": "tag",
+        "tag": "helmet"
+    },
+    "properties": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": "[material.tier]/100",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": "25 * [material.tier]",
+                    "operation": "+",
+                    "slot": "head"
+                }
+            ]
+        }
+    }
+}

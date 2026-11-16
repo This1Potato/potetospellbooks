@@ -1,0 +1,124 @@
+{
+    "parent": "tm_armory:armor/base",
+    "data": {
+        "merge": {
+            "model": [
+                {
+                    "path": "miapi:models/item/armor/model/helmet/base/[material.texture].json",
+                    "trim_mode": "ARMOR_LAYER_ONE",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "head"
+                    }
+                },
+                {
+                    "path": "miapi:models/item/armor/gui/base/helmet/base/[material.texture].json",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "origin": "item"
+                    }
+                }
+            ],
+            "slots": {
+                "hat": {
+                    "allowed": [
+                        "hat",
+                        "sub_hat"
+                    ],
+                    "translationKey": "miapi.slot.hat.name",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "translation": {
+                            "x": 0,
+                            "y": -1,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1.1,
+                            "y": 1.1,
+                            "z": 1.1
+                        },
+                        "origin": "head"
+                    }
+                }
+            },
+            "priority": 0,
+            "repair_priority": 0,
+            "allowed_in_slots": [
+                "helmet_plate"
+            ],
+            "module_stats": {
+                "armor": "floor([material.hardness]/2)"
+            },
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": "[module.armor]",
+                    "operation": "+",
+                    "slot": "head"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": "[material-module.armor_toughness]",
+                    "operation": "+",
+                    "slot": "head"
+                }
+            ],
+            "durability": "[material-module.armor_durability] * 11",
+            "allowed_material": {
+                "allowedMaterials": [
+                    "wood",
+                    "fabric",
+                    "skin",
+                    "metal",
+                    "flint",
+                    "bone",
+                    "stone",
+                    "crystal",
+                    "scute",
+                    "glass"
+                ],
+                "cost": 5
+            },
+            "display_name": "miapi.module.tm_armory.armor.default.helmet.name",
+            "module_tag": [
+                "helmet",
+                "background_icon",
+                "default_armor",
+                "wizard_battlemage"
+            ]
+        }
+    }
+}
