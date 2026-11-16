@@ -1,0 +1,74 @@
+{
+    "type": "tag",
+    "tag": "wizard_base",
+    "condition": {
+        "type": "tag",
+        "tag": "legs"
+    },
+    "properties": {
+        "merge": {
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": "0.016666666667",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": "0.033333333333334 * [material.blood]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "value": "0.033333333333334 * [material.ender]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": "0.033333333333334 * [material.fire]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": "0.033333333333334 * [material.holy]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": "0.033333333333334 * [material.nature]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": "0.033333333333334 * [material.lightning]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": "0.033333333333334 * [material.ice]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "value": "0.033333333333334 * [material.evocation]",
+                    "operation": "+",
+                    "slot": "legs"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": "125 * 0.3",
+                    "operation": "+",
+                    "slot": "legs"
+                }
+            ]
+        }
+    }
+}

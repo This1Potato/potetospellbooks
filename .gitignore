@@ -24,7 +24,7 @@ runs
 run-data
 
 .gitignore
-
+.vscode/
 repo
 
 # code references because i refuse to look at the external libraries tab

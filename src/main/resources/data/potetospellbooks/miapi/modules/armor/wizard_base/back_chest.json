@@ -68,66 +68,6 @@
                     "value": "[module.armor]",
                     "operation": "+",
                     "slot": "chest"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": "[module.knockback_resistance]",
-                    "operation": "+",
-                    "slot": "chest"
-                },
-                {
-                    "attribute": "irons_spellbooks:spell_power",
-                    "value": "0.015",
-                    "operation": "+",
-                    "slot": "chest"
-                },
-                {
-                    "attribute": "irons_spellbooks:blood_spell_power",
-                    "value": "0.03 * [material.blood]",
-                    "operation": "+",
-                    "slot": "chest"
-                },
-                {
-                    "attribute": "irons_spellbooks:ender_spell_power",
-                    "value": "0.03 * [material.ender]",
-                    "operation": "+",
-                    "slot": "chest"
-                },
-                {
-                    "attribute": "irons_spellbooks:fire_spell_power",
-                    "value": "0.03 * [material.fire]",
-                    "operation": "+",
-                    "slot": "chest"
-                },
-                {
-                    "attribute": "irons_spellbooks:holy_spell_power",
-                    "value": "0.03 * [material.holy]",
-                    "operation": "+",
-                    "slot": "chest"
-                },
-                {
-                    "attribute": "irons_spellbooks:nature_spell_power",
-                    "value": "0.03 * [material.nature]",
-                    "operation": "+",
-                    "slot": "chest"
-                },
-                {
-                    "attribute": "irons_spellbooks:lightning_spell_power",
-                    "value": "0.03 * [material.lightning]",
-                    "operation": "+",
-                    "slot": "chest"
-                },
-                {
-                    "attribute": "irons_spellbooks:ice_spell_power",
-                    "value": "0.03 * [material.ice]",
-                    "operation": "+",
-                    "slot": "chest"
-                },
-                {
-                    "attribute": "irons_spellbooks:evocation_spell_power",
-                    "value": "0.03 * [material.evocation]",
-                    "operation": "+",
-                    "slot": "chest"
                 }
             ],
             "durability": "[material-module.armor_durability] * 6",

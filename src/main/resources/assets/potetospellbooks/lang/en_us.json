@@ -21,8 +21,6 @@
 
     "miapi.material.potetospellbooks.rune": "Runes",
     "miapi.material.potetospellbooks.arcane": "Arcane",
-
-    
     
     
     "miapi.module.potetospellbooks.armor.wizard_base.helmet": "Wizard Hat",
@@ -42,15 +40,16 @@
     "miapi.module.potetospellbooks.armor.wizard_base.back_chest.description": "A backplate that balances defense and magical power.",
 
     "miapi.module.potetospellbooks.armor.wizard_base.belt": "Wizard Belt",
-    "miapi.module.potetospellbooks.armor.wizard_base.belt.name": "%s Belt",
-    "miapi.module.potetospellbooks.armor.wizard_base.belt.description": "A belt that secures the armor and channels balanced magical power.",
+    "miapi.module.potetospellbooks.armor.wizard_base.belt.name": "%s Leggings",
+    "miapi.module.potetospellbooks.armor.wizard_base.belt.description": "A belt that secures the armor and channels magical power.",
+
 
     "miapi.module.potetospellbooks.armor.wizard_base.boot_left": "Wizard Left Boot",
-    "miapi.module.potetospellbooks.armor.wizard_base.boot_left.name": "%s Left Boot",
+    "miapi.module.potetospellbooks.armor.wizard_base.boot_left.name": "%s Boots",
     "miapi.module.potetospellbooks.armor.wizard_base.boot_left.description": "A boot that offers balanced protection and magical enhancement.",
 
     "miapi.module.potetospellbooks.armor.wizard_base.boot_right": "Wizard Right Boot",
-    "miapi.module.potetospellbooks.armor.wizard_base.boot_right.name": "%s Right Boot",
+    "miapi.module.potetospellbooks.armor.wizard_base.boot_right.name": "%s Boots",
     "miapi.module.potetospellbooks.armor.wizard_base.boot_right.description": "A boot that offers balanced protection and magical enhancement.",
 
     "miapi.module.potetospellbooks.armor.wizard_base.front_chest": "Wizard Robe",

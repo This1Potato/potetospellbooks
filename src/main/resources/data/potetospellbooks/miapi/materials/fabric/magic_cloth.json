@@ -19,31 +19,10 @@
     "mining_level": "minecraft:incorrect_for_wooden_tool",
     "color": "B063F7",
     "color_palette": {
-        "type": "layered_mask",
-        "base": {
-            "type": "grayscale_map",
-            "colors": {
-                "0": "000040",
-                "63": "000080",
-                "127": "0000FF",
-                "191": "66B2FF",
-                "255": "ADD8E6"
-            }
-        },
-        "layer": {
-            "type": "grayscale_map",
-            "colors": {
-                "0": "400040",
-                "63": "800080",
-                "127": "FF00FF",
-                "191": "FF69B4",
-                "255": "FFB6C1"
-            }
-        },
-        "mask": {
-            "type": "texture",
-            "atlas": "block",
-            "texture": "potetospellbooks:item/gradient_3"
+        "type": "grayscale_map",
+        "colors": {
+            "3": "035D51",
+            "232": "E8FFFD"
         }
     },
     "textures": [
